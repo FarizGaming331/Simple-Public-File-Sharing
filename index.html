@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<h1>Simple File Sharing</h1>
+<h2>By Fariz</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File</title> 
+</head>
+<body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        Pilih file: <input type="file" name="berkas" />
+        <input type="submit" name="upload" value="upload" />
+    </form> 
+</body> 
+</html>
+<p>Please note that your file you uploaded will be shared to public.</p>
+<a href="./uploads/"><button>See All Uploaded Files.</button></a>
